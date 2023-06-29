@@ -6,7 +6,8 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  echo:
+    environment: DEV
     runs-on: ubuntu-latest
 
     steps:
